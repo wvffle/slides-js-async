@@ -7,9 +7,6 @@ lineNumbers: false
 drawings:
   persist: false
 title: Asynchroniczny JavaScript
-mdc: true
-monaco: true
-monacoTypesSource: local
 ---
 
 # Asynchroniczny JavaScript
