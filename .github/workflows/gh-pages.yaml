@@ -27,10 +27,10 @@ jobs:
           node-version: 'lts/*'
 
       - name: Install dependencies
-        run: npm install
+        run: corepack enable && pnpm install
 
       - name: Build
-        run: npm run build -- --base "/${{ github.event.repository.name }}/"
+        run: pnpm build --base "/${{ github.event.repository.name }}/"
 
       - uses: actions/configure-pages@v4
 
